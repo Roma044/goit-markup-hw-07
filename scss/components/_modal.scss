@@ -33,10 +33,6 @@
   transition: fill 250ms var(--timing-function);
 }
 
-.modal__close--icon:hover {
-  fill: var(--accent-color);
-}
-
 .modal__title {
   font-weight: 700;
   font-size: 20px;
