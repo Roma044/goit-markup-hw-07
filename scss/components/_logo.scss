@@ -3,7 +3,7 @@
 }
 
 .logo {
-  color: $accent-color;
+  color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -15,9 +15,9 @@
 }
 
 .logo__black {
-  color: $main-text-color;
+  color: var(--main-text-color);
 }
 
 .logo__white {
-  color: $primary-white-color;
+  color: var(--primary-white-color);
 }

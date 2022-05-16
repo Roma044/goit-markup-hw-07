@@ -79,6 +79,11 @@
   align-items: center;
 
   transition: background-color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer__socials--icon {
@@ -86,9 +91,4 @@
   justify-content: center;
   text-align: center;
   fill: var(--primary-white-color);
-}
-
-.footer__socials--link:hover,
-.footer__socials--link:focus {
-  background-color: var(--accent-color);
 }

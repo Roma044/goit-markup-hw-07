@@ -19,10 +19,10 @@
   line-height: 1.86;
 
   cursor: pointer;
-}
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: var(--second-button-color);
-  color: var(--primary-white-color);
+  &:hover,
+  &:focus {
+    background-color: var(--second-button-color);
+    color: var(--primary-white-color);
+  }
 }

@@ -80,20 +80,18 @@
   align-items: center;
 
   transition: background-color 250ms var(--timing-function);
-}
-
-.team__social--link:hover,
-.team__social--link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .team__social--icon {
   fill: var(--soc-icon-color);
 
   transition: fill 250ms var(--timing-function);
-}
-
-.team__social--link:hover .team__social--icon,
-.team__social--link:focus .team__social--icon {
-  fill: var(--primary-white-color);
+  .team__social--link:hover &,
+  .team__social--link:focus & {
+    fill: var(--primary-white-color);
+  }
 }
