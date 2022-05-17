@@ -31,6 +31,10 @@
   width: 100%;
   height: 100%;
   transition: fill 250ms var(--timing-function);
+
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
 
 .modal__title {
@@ -52,14 +56,10 @@
   outline: none;
   transition: border-color 250ms var(--timing-function);
   cursor: pointer;
-}
 
-.modal__input:focus {
-  border-color: var(--accent-color);
-}
-
-.modal__input:focus + .modal__icon {
-  fill: var(--accent-color);
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .modal__field {
@@ -95,10 +95,10 @@
   cursor: pointer;
 
   transition: border-color 250ms var(--timing-function);
-}
 
-.modal__comment:focus {
-  border-color: var(--accent-color);
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .modal__field {
@@ -111,4 +111,7 @@
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms var(--timing-function);
+  .modal__input:focus + & {
+    fill: var(--accent-color);
+  }
 }

@@ -3,6 +3,10 @@
   padding-bottom: 94px;
 }
 
+.button__title.is-hidden {
+  visibility: hidden;
+}
+
 .button__list {
   display: flex;
   justify-content: center;

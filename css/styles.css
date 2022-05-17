@@ -1121,9 +1121,8 @@ p {
   border: 2px solid var(--main-text-color);
   border-radius: 2px;
   margin-right: 7px;
-} */
-
-/* .input-conditions:checked + .conditions-text::before {
+}
+.input-conditions:checked + .conditions-text::before {
   background-color: var(--accent-color);
   border: none;
 } */
