@@ -1,8 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: var(--main-page-background-color);
   font-family: Roboto, sans-serif;
-  color: var(--main-text-color);
 }
 
 :root {
@@ -73,6 +71,11 @@ p {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
+}
+
+body {
+  background-color: var(--main-page-background-color);
+  color: var(--main-text-color);
 }
 
 .header {
@@ -798,7 +801,7 @@ p {
   padding-bottom: 94px;
 }
 
-.button__title.is-hidden {
+.button__title.visually-hidden {
   visibility: hidden;
 }
 
